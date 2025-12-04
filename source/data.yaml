@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['head']
+
+roboflow:
+  workspace: viet-hoang-zbzwq
+  project: jhu-crowd-cohzi
+  version: 2
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/viet-hoang-zbzwq/jhu-crowd-cohzi/dataset/2
